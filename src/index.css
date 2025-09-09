@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap'); */
 
 
 *{
@@ -23,4 +23,8 @@ hr{
   border: none;
   height: 1px;
   background-color: #a9a9a9;
+}
+
+.app-content{
+  display: flex;
 }
