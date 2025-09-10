@@ -4,6 +4,10 @@
   align-items: center;
   padding: 8px 4%;
 }
-.navbar .logo {
-  width: max(10%,80px);
+.navbar .logo{
+  width: max(5%,70px);
+}
+
+.navbar .profile{
+  width: 50px;
 }
