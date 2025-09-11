@@ -12,6 +12,10 @@
   flex-direction: column;
   gap: 20px;
 }
+.sidebar-option.active{
+  background-color:#cfe3fe;
+  border-color: rgb(0, 0, 255);
+}
 .sidebar-option{
   display: flex;
   align-items: center;
