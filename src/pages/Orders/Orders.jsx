@@ -1,8 +1,8 @@
-import './Order.css'
+import './Orders.css'
 
 const Orders = () => {
   return (
-    <div>Order</div>
+    <div>Orders</div>
   )
 }
 
