@@ -25,7 +25,7 @@ const Add = () => {
   //create the API call function
 
   const onSubmitHandler = async (event)=>{
-    event.preventDefault(); // this is use for when we press the add button rellod the page the details are erase so use preventDefault for stop the reload
+    event.preventDefault(); // this is use for when we press the add button reload the page the details are erase so use preventDefault for stop the reload
 
     //then we update the form data
     const formData = new FormData();
@@ -91,7 +91,7 @@ const Add = () => {
           </div>
           <div className="add-price flex-col">
             <p>Product Price</p>
-            <input onChange={onChangeHandler} value={data.price} type="number" name='price' placeholder='$20'/>
+            <input onChange={onChangeHandler} min="0" value={data.price} type="number" name='price' placeholder='$20'/>
           </div>
         </div>
         <button type='submit' className='add-btn'>ADD</button>
